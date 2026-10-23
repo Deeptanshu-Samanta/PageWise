@@ -1,0 +1,26 @@
+
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Saved vector indexes (can be rebuilt)
+vector_db/
+*.faiss
+*.pkl
+
+# Downloaded model cache
+.cache/
+fastembed_cache/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Uploaded or test documents (remove this line if you want to commit sample PDFs)
+docs/
